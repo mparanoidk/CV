@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTml Forms</title>
+  </head>
+  <body>
+      <h3>Html form</h3>
+      <form action="backend.php">
+        <label for="name">Name</label>
+        <div><input type="text" name="myname" id="name" /></div>
+        <br />
+        <label for="roll no">Roll no</label>
+        <div><input type="number" name="myroll" id="roll no" /></div>
+        <br />
+        <label for="email">Email</label>
+        <div><input type="text" name="myemail" id="email" /></div>
+        <br />
+        <label for="contact">Contact</label>
+        <div><input type="text" name="mycontact" id="contact" /></div>
+        <br />
+
+        <div>
+          Date: &nbsp<input type="date" name="" name="mydate" />
+        </div>
+        <br />
+        <label for="eligibility">Are You Eligible</label>
+        <div>
+          <input type="checkbox" name="myeligibility" id="eligibility" checked/>
+        </div>
+        <br>
+
+        <div><label for="g1">Male </label>
+          <input type="radio" name="mygender" id="g1"/>
+          <label for="g2">Female</label>
+          <input type="radio" name="mygender" id="g2" /> 
+          <label for="g3">Other</label>
+          <input type="radio" name="mygender" id="g3" />
+        </div>
+        <br />
+        <div>
+          <div>
+            <label for="me">Write about Yourself</label><br>
+
+            <textarea name="aboutme" cols="50" rows="10" id="me"></textarea>
+        </div>
+      </div>
+        <br />
+        <div>
+        <input type="submit" value="Submit Now" /> 
+        <input type="reset" value="reset now"/>
+      </div>
+      </form>
+      </body>
+    
+</html>
